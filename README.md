@@ -1,5 +1,4 @@
-# DISCORD-MULTIPLE-FUNCTIONS
-
+# discord-multiple-functions
 
 
 🎈 Instalar el npm 
