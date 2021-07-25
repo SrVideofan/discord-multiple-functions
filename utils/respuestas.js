@@ -35,5 +35,5 @@ return anser
 
 module.exports = {
     bola8,
-    anser
+    respuestas
 }
