@@ -45,6 +45,8 @@ if(command === 'curioso'){
     message.channel.send(await curioso())
 }
 
+})
+
 client.login('TOKEN')
 ```
 
@@ -54,6 +56,6 @@ Si quieres sugerir datos curiosos no dudes en unirte al [discord](https://discor
 
 PROXIMAMENTE MAS FUNCIONES
 
-})
+
 
 
