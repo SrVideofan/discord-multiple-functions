@@ -33,7 +33,7 @@ async function respuestas(){
     let opcioness = ['Tal vez', 'No lo se', 'No Deberias','Puede ser','Mejor no','Porque?', 'Porfavor!','No','Si','Puede salir bien', 'Puede salir muy mal']
 let respuestafinal  = opcioness[Math.floor(Math.random()*opcioness.length)]
 
-let anser = respuesta
+let anser = respuestafinal
 return anser
 }
 
