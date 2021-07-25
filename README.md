@@ -53,7 +53,6 @@ if(command === 'curioso'){
 client.login('TOKEN')
 ```
 
-Si quieres sugerir datos curiosos no dudes en unirte al [discord](https://discord.gg/XKnAs4Xq8G)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -153,3 +152,6 @@ client.login('TOKEN')
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+Si nesecitas ayuda o quieres sugerir algo unete a nuestro [discord](https://discord.gg/XKnAs4Xq8G)
