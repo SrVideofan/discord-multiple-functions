@@ -17,7 +17,7 @@ if(!pregunta){
 }
 
 let opciones = ['Tal vez', 'No lo se', 'No Deberias','Puede ser','Mejor no','Porque?', 'Porfavor!','No','Si','Puede salir bien', 'Puede salir muy mal']
-let respuesta  = respuesta[Math.floor(Math.random()*respuesta.length)]
+let respuesta  = opciones[Math.floor(Math.random()*opciones.length)]
     const embed = new MessageEmbed()
 
     .setTitle('Yo te respondo a tu pregunta')
@@ -30,8 +30,8 @@ let respuesta  = respuesta[Math.floor(Math.random()*respuesta.length)]
 }
 
 async function respuestas(){
-    let opciones = ['Tal vez', 'No lo se', 'No Deberias','Puede ser','Mejor no','Porque?', 'Porfavor!','No','Si','Puede salir bien', 'Puede salir muy mal']
-let respuesta  = respuesta[Math.floor(Math.random()*respuesta.length)]
+    let opcioness = ['Tal vez', 'No lo se', 'No Deberias','Puede ser','Mejor no','Porque?', 'Porfavor!','No','Si','Puede salir bien', 'Puede salir muy mal']
+let respuestafinal  = opcioness[Math.floor(Math.random()*opcioness.length)]
 
 let anser = respuesta
 return anser
