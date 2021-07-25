@@ -16,7 +16,7 @@ npm i discord-multiple-functions@lastest
 
 • [Curioso](https://www.npmjs.com/package/discord-multiple-functions#curioso)
 
-• [Bola 8](https://www.npmjs.com/package/discord-multiple-functions#bola8)
+• [Bola8](https://www.npmjs.com/package/discord-multiple-functions#bola8)
 
 ### Curioso
 
@@ -110,7 +110,7 @@ const args = message.content.slice(prefix).trim().split(/ +/g);
 const command = args.shift();
 
 if(command === '8ball'){
-    let respuestas = await anser;
+    let respuestas = await anser();
 
     message.channel.send(`Mi respuesta a tu pregunta es ${respuestas}`)
 }
