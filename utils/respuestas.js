@@ -1,12 +1,16 @@
 const { error } = require('../src/error')
 const { MessageEmbed } = require('discord.js')
 
-async function bola8(){
 
 /**
  * 
  * @param {String} pregunta la pregunta :v
  */
+
+
+
+async function bola8(pregunta){
+
 
 if(!pregunta){
     throw new error('Debe incluir una pregunta valida!')

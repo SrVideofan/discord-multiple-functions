@@ -85,7 +85,7 @@ const args = message.content.slice(prefix).trim().split(/ +/g);
 const command = args.shift();
 
 if(command === '8ball'){
-    message.channel.send(await bola8())
+    message.channel.send(await bola8(pregunta))
 }
 
 })
