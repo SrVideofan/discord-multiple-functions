@@ -18,6 +18,8 @@ npm i discord-multiple-functions@lastest
 
 • [Memes](https://www.npmjs.com/package/discord-multiple-functions#memes)
 
+• [Jot4ele]
+
 
 ### Curioso
 
