@@ -14,7 +14,7 @@ npm i discord-multiple-functions@lastest
 
 🧨 Usos disponibles:
 
-• [curioso](https://www.npmjs.com/package/discord-multiple-functions#curioso)
+• [Curioso](https://www.npmjs.com/package/discord-multiple-functions#curioso)
 
 • [Bola 8](https://www.npmjs.com/package/discord-multiple-functions#bola8)
 
@@ -57,7 +57,7 @@ Si quieres sugerir datos curiosos no dudes en unirte al [discord](https://discor
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
-### Bola 8
+### Bola8
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
