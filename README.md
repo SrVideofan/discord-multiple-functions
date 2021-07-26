@@ -198,7 +198,7 @@ if(command === 'kiss'){
     if(!user)return message.channel.send('Debes mencionar a alguien!')
     
     const embed = new Discord.MessageEmbed()  
-    .setTitle(`${message.author}  le ha dado un beso a ${user}`)
+    .setTitle(`${message.author.tag}  le ha dado un beso a ${user.tag}`)
     .setImage(kiss())
     .setColor('RANDOM')
 
@@ -230,7 +230,7 @@ if(command === 'hug'){
     if(!user)return message.channel.send('Debes mencionar a alguien!')
     
     const embed = new Discord.MessageEmbed()  
-    .setTitle(`${message.author}  le ha dado un abrazo a ${user}`)
+    .setTitle(`${message.author.tag}  le ha dado un abrazo a ${user.tag}`)
     .setImage(hug())
     .setColor('RANDOM')
 
@@ -263,7 +263,7 @@ if(command === 'kiss'){
     if(!user)return message.channel.send('Debes mencionar a alguien!')
     
     const embed = new Discord.MessageEmbed()  
-    .setTitle(`${message.author} ${kisstext()} ${user}`)
+    .setTitle(`${message.author.tag} ${kisstext()} ${user.tag}`)
     .setImage(kiss())
     .setColor('RANDOM')
 
@@ -296,7 +296,7 @@ if(command === 'hug'){
     if(!user)return message.channel.send('Debes mencionar a alguien!')
     
     const embed = new Discord.MessageEmbed()  
-    .setTitle(`${message.author}  ${hugtext()} ${user}`)
+    .setTitle(`${message.author.tag}  ${hugtext()} ${user.tag}`)
     .setImage(hug())
     .setColor('RANDOM')
 
