@@ -349,7 +349,7 @@ const command = args.shift();
 
 if(command === 'random'){
     
-    let random = character(6)
+    let random = await character(6)
  
     message.channel.send(random)    
 })
