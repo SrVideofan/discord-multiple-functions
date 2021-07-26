@@ -22,6 +22,8 @@ npm i discord-multiple-functions@lastest
 
 • [Caracteres](https://www.npmjs.com/package/discord-multiple-functions#caracteres)
 
+• [Deberia?](https://www.npmjs.com/package/discord-multiple-functions#deberia)
+
 ### Curioso
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -362,6 +364,53 @@ client.login('TOKEN')
 ```
 En el parentesis de await character() puedes poner el numero que tu quieras no nesesariamente el que yo puse
 ```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+### Deberia
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ Informacion:
+
+```
+La npm toma decisiones por ti! (obiamente de broma no te la creas xd)(tambien sirve para hacer un 8ball xd)
+```
+
+🎮 Funciones:
+
+|Funcion    |       Uso        |            Explicacion                   |
+|-----------|      ------------|        ----------------------------------|
+| question |      question()   |        Te dara una respuesta a lo random | 
+
+
+🎊 Modo de uso:
+ 
+ 
+
+```js
+const Discord = require('discord.js')
+const client = new Discord.Client();
+const { question } = require('discord-multiple-functions')
+
+client.on("message", async (message) => {
+    let prefix = '/'
+    if (message.author.bot) return;
+if (!message.content.startsWith(prefix)) return;
+const args = message.content.slice(prefix).trim().split(/ +/g);
+const command = args.shift();
+
+if(command === 'random'){
+    
+    const peo = args.join(' ')
+    if(!peo)return message.channel.send('Nesecitas poner una pregunta!')
+ 
+    message.channel.send(question())    
+})
+
+client.login('TOKEN')
+```
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 

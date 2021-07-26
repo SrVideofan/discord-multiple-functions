@@ -3,6 +3,7 @@ const { error } = require('../src/error')
 const {  memevideo, memeimagen, momasos} = require('../utils/memes')
 const {  kisstext, hug, kiss, hugtext } = require('../utils/interacciones')
 const { character } = require('../utils/caracterandom')
+const { cuestion } = require('../utils/deberia...')
 
 module.exports = {
     curioso,
@@ -14,5 +15,6 @@ module.exports = {
     hug,
     kiss,
     hugtext,
-    character
+    character,
+    question
 }
