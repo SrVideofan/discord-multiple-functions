@@ -24,6 +24,8 @@ npm i discord-multiple-functions@lastest
 
    • [Memes de dos los tipos](https://www.npmjs.com/package/discord-multiple-functions#memesdedoslostipos)
 
+• [Interacciones](https://www.npmjs.com/package/discord-multiple-functions#interacciones)
+
 
 ### Curioso
 
@@ -151,6 +153,163 @@ if(command === 'meme'){
     let meme = momasos()
  
     message.channel.send(meme)    
+})
+
+client.login('TOKEN')
+```
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+### Interraciones
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ Informacion:
+
+```
+Usalo para hacer los comandos de kiss y hug
+```
+
+🎮 Funciones:
+
+|Funcion    |       Uso        |            Explicacion                                             |
+|-----------|      ------------|            --------------------------------------------------------|
+| kiss      |      kiss()      |            Suelta un gif random de besos                           | 
+| hug       |      hug()       |            Suelta un gif random de abrazos                         |
+| kisstext  |      kisstext()  |            Suelta un texto random relacionado con los besos        |
+| hugtext   |      hugtext()   |            Suelta un texto random relacionado con los abrazos      |
+
+
+
+🎊 Modos de uso:
+ 
+ ### Kiss:
+
+```js
+const Discord = require('discord.js')
+const client = new Discord.Client();
+const { kiss } = require('discord-multiple-functions')
+
+client.on("message", async (message) => {
+    let prefix = '/'
+    if (message.author.bot) return;
+if (!message.content.startsWith(prefix)) return;
+const args = message.content.slice(prefix).trim().split(/ +/g);
+const command = args.shift();
+
+if(command === 'kiss'){
+
+    let user = message.mentions.users.first()
+    if(!user)return message.channel.send('Debes mencionar a alguien!')
+    
+    const embed = new Discord.MessageEmbed()  
+    .setTitle(`${message.author}  le ha dado un beso a ${user}`)
+    .setImage(kiss())
+    .setColor('RANDOM')
+
+    message.channel.send(embed)
+
+
+})
+
+client.login('TOKEN')
+```
+
+### Hug
+
+```js
+const Discord = require('discord.js')
+const client = new Discord.Client();
+const { hug } = require('discord-multiple-functions')
+
+client.on("message", async (message) => {
+    let prefix = '/'
+    if (message.author.bot) return;
+if (!message.content.startsWith(prefix)) return;
+const args = message.content.slice(prefix).trim().split(/ +/g);
+const command = args.shift();
+
+if(command === 'hug'){
+
+    let user = message.mentions.users.first()
+    if(!user)return message.channel.send('Debes mencionar a alguien!')
+    
+    const embed = new Discord.MessageEmbed()  
+    .setTitle(`${message.author}  le ha dado un abrazo a ${user}`)
+    .setImage(hug())
+    .setColor('RANDOM')
+
+        message.channel.send(embed)
+
+
+    
+})
+
+client.login('TOKEN')
+```
+
+### Kiss text
+
+```js
+const Discord = require('discord.js')
+const client = new Discord.Client();
+const { kisstext, kiss } = require('discord-multiple-functions')
+
+client.on("message", async (message) => {
+    let prefix = '/'
+    if (message.author.bot) return;
+if (!message.content.startsWith(prefix)) return;
+const args = message.content.slice(prefix).trim().split(/ +/g);
+const command = args.shift();
+
+if(command === 'kiss'){
+
+    let user = message.mentions.users.first()
+    if(!user)return message.channel.send('Debes mencionar a alguien!')
+    
+    const embed = new Discord.MessageEmbed()  
+    .setTitle(`${message.author} ${kisstext()} ${user}`)
+    .setImage(kiss())
+    .setColor('RANDOM')
+
+        message.channel.send(embed)
+
+
+    
+})
+
+client.login('TOKEN')
+```
+
+### Hug Text
+
+```js
+const Discord = require('discord.js')
+const client = new Discord.Client();
+const { hug, hugtext } = require('discord-multiple-functions')
+
+client.on("message", async (message) => {
+    let prefix = '/'
+    if (message.author.bot) return;
+if (!message.content.startsWith(prefix)) return;
+const args = message.content.slice(prefix).trim().split(/ +/g);
+const command = args.shift();
+
+if(command === 'hug'){
+
+    let user = message.mentions.users.first()
+    if(!user)return message.channel.send('Debes mencionar a alguien!')
+    
+    const embed = new Discord.MessageEmbed()  
+    .setTitle(`${message.author}  ${hugtext()} ${user}`)
+    .setImage(hug())
+    .setColor('RANDOM')
+
+        message.channel.send(embed)
+
+
+    
 })
 
 client.login('TOKEN')
