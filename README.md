@@ -357,6 +357,12 @@ if(command === 'random'){
 client.login('TOKEN')
 ```
 
+📙 Nota:
+
+```
+En el parentesis de await character() puedes poner el numero que tu quieras no nesesariamente el que yo puse
+```
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
