@@ -66,7 +66,7 @@ client.login('TOKEN')
 ✨ Informacion:
 
 ```
-Sulta memes random en forma de video, imagen, o las dos juntas
+Suelta memes random en forma de video, imagen, o las dos juntas
 ```
 
 🎮 Funciones:
