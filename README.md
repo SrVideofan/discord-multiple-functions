@@ -20,6 +20,7 @@ npm i discord-multiple-functions@lastest
 
 • [Interacciones](https://www.npmjs.com/package/discord-multiple-functions#interacciones)
 
+• [Caracteres](https://www.npmjs.com/package/discord-multiple-functions#caracteres)
 
 ### Curioso
 
@@ -309,6 +310,52 @@ if(command === 'hug'){
 client.login('TOKEN')
 ```
 
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+### Caracteres
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ Informacion:
+
+```
+Saca un caracter o un codigo de digitos random 
+```
+
+🎮 Funciones:
+
+|Funcion    |       Uso        |            Explicacion                   |
+|-----------|      ------------|            ------------------------------|
+| character |      await character()|            Saca un codigo random    | 
+
+
+🎊 Modo de uso:
+ 
+ 
+
+```js
+const Discord = require('discord.js')
+const client = new Discord.Client();
+const { character } = require('discord-multiple-functions')
+
+client.on("message", async (message) => {
+    let prefix = '/'
+    if (message.author.bot) return;
+if (!message.content.startsWith(prefix)) return;
+const args = message.content.slice(prefix).trim().split(/ +/g);
+const command = args.shift();
+
+if(command === 'random'){
+    
+    let random = character(6)
+ 
+    message.channel.send(random)    
+})
+
+client.login('TOKEN')
+```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
