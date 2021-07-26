@@ -9,3 +9,7 @@ function question(){
      return respuestafinal
      
 }
+
+module.exports = {
+    question
+}
