@@ -18,12 +18,6 @@ npm i discord-multiple-functions@lastest
 
 • [Memes](https://www.npmjs.com/package/discord-multiple-functions#memes)
 
-   • [Imagenes](https://www.npmjs.com/package/discord-multiple-functions#memesimagenes)
-
-   • [Videos](https://www.npmjs.com/package/discord-multiple-functions#memesvideos)
-
-   • [Memes de dos los tipos](https://www.npmjs.com/package/discord-multiple-functions#memesdedoslostipos)
-
 • [Interacciones](https://www.npmjs.com/package/discord-multiple-functions#interacciones)
 
 
@@ -161,7 +155,7 @@ client.login('TOKEN')
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-### Interraciones
+### Interacciones
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
