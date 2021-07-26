@@ -1,5 +1,5 @@
 {
-  "name": "discord-multiple-functions",
+  "name": "discord-multiple",
   "version": "4.1.2",
   "description": "Una npm con funciones basicas de discord y otras no tanto",
   "main": "src/main.js",
