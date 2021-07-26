@@ -18,7 +18,11 @@ npm i discord-multiple-functions@lastest
 
 • [Memes](https://www.npmjs.com/package/discord-multiple-functions#memes)
 
-• [Jot4ele]
+   • [Imagenes](https://www.npmjs.com/package/discord-multiple-functions#memesimagenes)
+
+   • [Videos](https://www.npmjs.com/package/discord-multiple-functions#memesvideos)
+
+   • [Memes de dos los tipos](https://www.npmjs.com/package/discord-multiple-functions#memesdedoslostipos)
 
 
 ### Curioso
@@ -80,7 +84,7 @@ Sulta memes random en forma de video, imagen, o las dos juntas
 
 🎊 Modos de uso:
  
- Memes imagenes:
+ ### Memes imagenes:
 
 ```js
 const Discord = require('discord.js')
@@ -104,7 +108,7 @@ if(command === 'meme'){
 client.login('TOKEN')
 ```
 
-Memes videos
+### Memes videos
 
 ```js
 const Discord = require('discord.js')
@@ -128,7 +132,7 @@ if(command === 'meme'){
 client.login('TOKEN')
 ```
 
-Memes de los tipos
+### Memes de dos los tipos
 
 ```js
 const Discord = require('discord.js')
