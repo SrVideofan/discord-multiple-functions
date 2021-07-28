@@ -9,7 +9,7 @@ npm i discord-multiple-functions
 
 ⬆ Actualizar el npm
 ```
-npm i discord-multiple-functions@lastest
+npm i discord-multiple-functions@latest
 ```
 
 🧨 Usos disponibles:
@@ -101,7 +101,8 @@ if(command === 'meme'){
     
     let meme = memeimagen()
  
-    message.channel.send(meme)    
+    message.channel.send(meme)   
+} 
 })
 
 client.login('TOKEN')
@@ -125,7 +126,8 @@ if(command === 'meme'){
     
     let meme = memevideo()
  
-    message.channel.send(meme)    
+    message.channel.send(meme)  
+}  
 })
 
 client.login('TOKEN')
@@ -150,6 +152,7 @@ if(command === 'meme'){
     let meme = momasos()
  
     message.channel.send(meme)    
+}
 })
 
 client.login('TOKEN')
@@ -206,7 +209,7 @@ if(command === 'kiss'){
     .setColor('RANDOM')
 
     message.channel.send(embed)
-
+}
 
 })
 
@@ -238,7 +241,7 @@ if(command === 'hug'){
     .setColor('RANDOM')
 
         message.channel.send(embed)
-
+}
 
     
 })
@@ -272,7 +275,7 @@ if(command === 'kiss'){
 
         message.channel.send(embed)
 
-
+}
     
 })
 
@@ -305,7 +308,7 @@ if(command === 'hug'){
 
         message.channel.send(embed)
 
-
+}
     
 })
 
@@ -354,6 +357,7 @@ if(command === 'random'){
     let random = await character(6)
  
     message.channel.send(random)    
+}
 })
 
 client.login('TOKEN')
@@ -405,7 +409,8 @@ if(command === 'random'){
     const peo = args.join(' ')
     if(!peo)return message.channel.send('Nesecitas poner una pregunta!')
  
-    message.channel.send(question())    
+    message.channel.send(question())   
+} 
 })
 
 client.login('TOKEN')
