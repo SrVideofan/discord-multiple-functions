@@ -1,7 +1,7 @@
 # discord-multiple-functions
 
 
-🎈 Instalar el npm 
+🎈 Instalar el paquete
 
 ```
 npm i discord-multiple-functions
